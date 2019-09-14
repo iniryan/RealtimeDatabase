@@ -39,6 +39,7 @@ class ListAdapter(val con: Context, val layoutResId: Int, val list: List<Users>)
         }
 
         return view
+        
     }
 
     private fun deleteInfo(user: Users){
