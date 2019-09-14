@@ -1,7 +1,11 @@
 package com.example.realtimedatabase
 
-class Users (var nama: String, var email: String){
-    constructor():this("",""){
+//bentuk objek dengan variable nama sama email
+class Users (var id: String, var nama: String, var email: String){
+
+
+    constructor():this("","",""){
+
 
     }
 }
